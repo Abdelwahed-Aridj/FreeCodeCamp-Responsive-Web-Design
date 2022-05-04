@@ -1,0 +1,146 @@
+<!-- Personal Portfolio Webpage -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Personal Portfolio Webpage</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- NAV START -->
+      <nav id="navbar" Class="nav">
+        <!-- User Story #6: My portfolio should have a navbar with an id of navbar  -->
+        <ul class="nav-list">
+          <li><a href="#welcome-section">Home</a></li>
+          <!--User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page -->
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- NAV END -->
+    </header>
+
+    <!-- WELCOME SECTION START-->
+    <section id="welcome-section" class="welcome-section">
+      <!-- User Story #1: My portfolio should have a welcome section with an id of welcome-section -->
+      <h1>Welcome to my portfolio</h1>
+      <!-- User Story #2: The welcome section should have an h1 element that contains text  -->
+      <br />
+      <p>Hi am Abdelwahed</p>
+      <p>Am a Web Development Student.</p>
+    </section>
+    <!-- WELCOME SECTION END -->
+
+    <!-- PROJECTS SECTION START -->
+    <section id="projects" class="projects-section">
+      <!-- User Story #3: My portfolio should have a projects section with an id of projects -->
+      <h2 class="projects-section-header">Some of my test projects</h2>
+
+      <div class="projects-grid">
+        <a
+          href="https://codepen.io/abdelwahed-aridj/pen/poaozzO"
+          target="_blank"
+          class="project project-tile"
+        >
+          <!-- User Story #5: The projects section should contain at least one link to a project -->
+          <img
+            class="project-image"
+            src="/tribute_page.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <!-- User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project -->
+            <span class="code">&lt;</span>
+            Tribute Page1
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+
+        <a
+          href="https://codepen.io/abdelwahed-aridj/pen/oNENYVW"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="product_landing_page.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Landing Page
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+
+        <a
+          href="https://codepen.io/abdelwahed-aridj/pen/RwQwKNM"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="documentation_page.jpg"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Technical Doc Page
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+      </div>
+
+      <a
+        href="https://codepen.io/abdelwahed-aridj/"
+        class="btn btn-show-all"
+        target="_blank"
+        >Show all<i class="fas fa-chevron-right"></i
+      ></a>
+      <!-- User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab -->
+    </section>
+    <!-- PROJECTS SECTION END -->
+
+    <!-- CONTACT SECTION START -->
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>if you have any questions</h2>
+        <p>feel free to contact me</p>
+      </div>
+      <div class="contact-links">
+        <a
+          id="profile-link"
+          href="https://github.com/Abdelwahed-Aridj"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          href="https://twitter.com/@abdelwahed_aden"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+        <a href="aj.abdelwahed@gmail.com" class="btn contact-details"
+          ><i class="fas fa-at"></i> Send a mail</a
+        >
+        <a href="tel:555-555-5555" class="btn contact-details"
+          ><i class="fas fa-mobile-alt"></i> Call me</a
+        >
+      </div>
+    </section>
+    <!-- CONTACT SECTION END -->
+
+    <footer>
+      <p>Copyright 2022</p>
+    </footer>
+  </body>
+</html>
